@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import Layout from '../components/Layout';
-import logo from '../../public/logo.png';
+import logo from '../../public/logo.white.png';
 
 export default function Home() {
   const [dynamicText, setDynamicText] = useState('FILBUILDERS');
@@ -22,7 +22,7 @@ export default function Home() {
     <Layout>
       <section className="hero bg-primary text-white h-screen flex flex-col justify-center items-center">
         <div className="container mx-auto text-center">
-          <Image src={logo} alt="FIL-B logo" width={200} height={100} />
+          <Image src={logo} alt="FIL-B logo" width={200} height={100} className="snap-center" />
           <h1 className="text-6xl font-bold mt-4">FIL Builders</h1>
           <p className="text-2xl mt-4">Cross the Filecoin chasm with us.</p>
           <p className="text-2xl mt-2">{dynamicText}</p>
