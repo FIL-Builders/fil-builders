@@ -20,9 +20,11 @@ export default function Home() {
 
   return (
     <Layout>
-      <section className="hero bg-primary text-white h-screen flex flex-col justify-center items-center">
-        <div className="container mx-auto text-center">
-          <Image src={logo} alt="FIL-B logo" width={200} height={100} className="snap-center" />
+      <section className="hero bg-primary text-white h-screen flex justify-center items-center">
+        <div className="text-center">
+          <div className="flex justify-center">
+            <Image src={logo} alt="FIL-B logo" width={200} height={100} />
+          </div>
           <h1 className="text-6xl font-bold mt-4">FIL Builders</h1>
           <p className="text-2xl mt-4">Cross the Filecoin chasm with us.</p>
           <p className="text-2xl mt-2">{dynamicText}</p>
