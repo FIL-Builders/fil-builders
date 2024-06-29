@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import React from "react";
-import NavBar from "@/components/NavBar";
 import Hero from "../components/Hero";
-import Footer from "@/components/Footer";
-import Learn from "@/components/Learn";
-import Build from "@/components/Build";
-import Meet from "@/components/Meet";
+import Build from "../components/Build";
+import Footer from "../components/Footer";
+import Learn from "../components/Learn";
+import Meet from "../components/Meet";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   const [dynamicText, setDynamicText] = useState("FILBUILDERS");
