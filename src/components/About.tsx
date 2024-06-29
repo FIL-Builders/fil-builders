@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import rish from "../../public/rish.png";
@@ -16,10 +17,11 @@ export default function About() {
             ecosystem. By providing resources and financial backing, Note aims
             to foster development, collaboration, and growth among developers
             and contributors who are building on the Filecoin platform. Whether
-            you're working on a groundbreaking application, enhancing existing
-            tools, or contributing to community-driven projects, Note offers the
-            support needed to bring your ideas to life. For more information or
-            to apply for funding, please reach out to contact@fil.builders.
+            you`&apos`re working on a groundbreaking application, enhancing
+            existing tools, or contributing to community-driven projects, Note
+            offers the support needed to bring your ideas to life. For more
+            information or to apply for funding, please reach out to
+            contact@fil.builders.
           </p>
         </div>
         <div className="mt-4">
