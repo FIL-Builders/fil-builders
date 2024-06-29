@@ -26,11 +26,13 @@ export default function Hero() {
       <section className="hero bg-primary text-white h-screen flex justify-center items-center">
         <div className="text-center">
           <div className="flex justify-center">
-            <Image src={logo} alt="FIL-B logo" width={200} height={100} />
+            <Image src={logo} alt="FIL-B logo" width={900} height={450} />
           </div>
-          <h1 className="text-6xl font-bold mt-4">FIL Builders</h1>
-          <p className="text-2xl mt-4">Cross the Filecoin chasm with us.</p>
-          <p className="text-2xl mt-2">{dynamicText}</p>
+          <div>
+            <h1 className="text-6xl font-bold">FIL Builders</h1>
+            <p className="text-2xl mt-4">Cross the Filecoin chasm with us.</p>
+            <p className="text-2xl mt-2">{dynamicText}</p>
+          </div>
         </div>
       </section>
       <section className="mission bg-white text-primary p-8">
