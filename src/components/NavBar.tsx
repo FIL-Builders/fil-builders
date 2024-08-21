@@ -1,19 +1,19 @@
 import Head from "next/head";
-import Image from "next/image";
-import logo from "../../public/logo.white.png";
+
 import React from "react";
+import LogoLandscape from "./svg/LogoLandscape";
 
 const NavBar = () => {
   return (
-    <div className="bg-white text-primary flex flex-col">
+    <div className="text-primary flex flex-col">
       <Head>
         <title>FIL Builders</title>
         <meta name="description" content="Cross the Filecoin chasm with us." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="bg-primary text-white p-4">
+      <header className="bg-primaryBlue text-white p-4 flex items-center justify-between">
         <div className="container mx-auto flex items-center justify-between">
-          <Image src={logo} alt="FIL-B logo" width={100} height={50} />
+          <LogoLandscape height={400} width={200} />
           <nav>
             <a href="/" className="mx-2 text-lg">
               Home

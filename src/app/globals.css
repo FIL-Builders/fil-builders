@@ -6,6 +6,10 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+
+  --primary-blue: #0090FF;
+  --secondary-red: #FA4747;
+  --secondary-yellow: #FFE05F;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,5 +33,87 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .bg-primary-blue {
+    background-color: var(--primary-blue);
+  }
+
+  .bg-secondary-red {
+    background-color: var(--secondary-red);
+  }
+
+  .bg-secondary-yellow {
+    background-color: var(--secondary-yellow);
+  }
+
+  .text-primary-blue {
+    color: var(--primary-blue);
+  }
+
+  .text-secondary-red {
+    color: var(--secondary-red);
+  }
+
+  .text-secondary-yellow {
+    color: var(--secondary-yellow);
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Balgin Black";
+    src: url("/fonts/Balgin-Black.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Quicksand Regular";
+    src: url("/fonts/Quicksand-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Quicksand Bold";
+    src: url("/fonts/Quicksand-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: "Quicksand Light";
+    src: url("/fonts/Quicksand-Light.ttf") format("truetype");
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: "Quicksand Medium";
+    src: url("/fonts/Quicksand-Medium.ttf") format("truetype");
+    font-weight: 500;
+  }
+
+  .font-display {
+    font-family: "Balgin Black", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+
+  .font-body {
+    font-family: "Quicksand Bold", sans-serif;
+    font-weight: bold;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .font-subtitle {
+    font-family: "Quicksand Medium", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+  }
+
+  .font-paragraph {
+    font-family: "Quicksand Regular", sans-serif;
+    font-weight: normal;
+    letter-spacing: 0;
+    text-transform: none;
   }
 }
