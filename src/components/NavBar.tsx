@@ -34,7 +34,7 @@ const NavBar = () => {
               href="https://filecoin.io/build/#features"
               className="my-1 md:my-0 mx-2 md:mx-4 text-sm md:text-lg"
             >
-              Blog
+              Build
             </a>
           </nav>
         </div>
