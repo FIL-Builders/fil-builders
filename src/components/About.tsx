@@ -42,129 +42,117 @@ export default function About() {
             .
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
-          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-center p-4 max-w-7xl mx-auto">
+          <div className="border-primaryBlue rounded-md p-6 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-6">
             <Image
               src={truckerfling}
               alt="Trucker Fling"
-              width={200}
-              height={200}
+              width={150}
+              height={150}
             />
             <div className="mt-4">
               <div className="font-body text-lg">Sarah Thiam</div>
               <div className="font-subtitle">Team Lead</div>
               <div className="font-subtitle">@Trucker_Fling</div>
-              <nav className="flex gap-6 items-center justify-center mt-4">
+              <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
                   href="https://x.com/Trucker_Fling"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
+                  <FaXTwitter style={{ width: "24px", height: "24px" }} />
                 </a>
                 <a
                   href="https://linkedin.com/in/truckerfling"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
+                  <FaLinkedin style={{ width: "24px", height: "24px" }} />
                 </a>
               </nav>
             </div>
           </div>
-          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={rish} alt="Rishikesh Kale" width={200} height={200} />
+          <div className="border-primaryBlue rounded-md p-6 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-6">
+            <Image src={rish} alt="Rishikesh Kale" width={150} height={150} />
             <div className="mt-4">
               <div className="font-body text-lg">Rishikesh Kale</div>
               <div className="font-subtitle">Developer Advocate</div>
               <div className="font-subtitle">@Rishikesh_Kale</div>
-              <nav className="flex gap-6 items-center justify-center mt-4">
+              <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
                   href="https://x.com/Rishikesh_Kale"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
+                  <FaXTwitter style={{ width: "24px", height: "24px" }} />
                 </a>
                 <a
                   href="https://linkedin.com/in/rishikeshkale"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
+                  <FaLinkedin style={{ width: "24px", height: "24px" }} />
                 </a>
               </nav>
             </div>
           </div>
-          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={longfei} alt="Longfei Wang" width={200} height={200} />
+          <div className="border-primaryBlue rounded-md p-6 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-6">
+            <Image src={longfei} alt="Longfei Wang" width={150} height={150} />
             <div className="mt-4">
               <div className="font-body text-lg">Longfei Wang</div>
               <div className="font-subtitle">Developer Advocate</div>
               <div className="font-subtitle">@Longfei_Wang</div>
-              <nav className="flex gap-6 items-center justify-center mt-4">
+              <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
                   href="https://x.com/longfei_w"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
+                  <FaXTwitter style={{ width: "24px", height: "24px" }} />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/longfei-wang-a7b3b125/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
+                  <FaLinkedin style={{ width: "24px", height: "24px" }} />
                 </a>
               </nav>
             </div>
           </div>
-          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={mikers} alt="Mikers" width={200} height={200} />
+          <div className="border-primaryBlue rounded-md p-6 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-6">
+            <Image src={mikers} alt="Mikers" width={150} height={150} />
             <div className="mt-4">
               <div className="font-body text-lg">Mikers</div>
               <div className="font-subtitle">Developer Advocate</div>
               <div className="font-subtitle">@Mikers</div>
-              <nav className="flex gap-6 items-center justify-center mt-4">
+              <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
                   href="https://x.com/mseiler1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
+                  <FaXTwitter style={{ width: "24px", height: "24px" }} />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/mseiler/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
+                  <FaLinkedin style={{ width: "24px", height: "24px" }} />
                 </a>
               </nav>
             </div>
           </div>
-          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={xors} alt="XORS" width={200} height={200} />
+          <div className="border-primaryBlue rounded-md p-6 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-6">
+            <Image src={xors} alt="XORS" width={150} height={150} />
             <div className="mt-4">
               <div className="font-body text-lg">XORS</div>
               <div className="font-subtitle">DX Engineer</div>
               <div className="font-subtitle">@XORS</div>
-              <nav className="flex gap-6 items-center justify-center mt-4">
-                <a
-                  href="https://x.com/truckerfling"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/sarahthiam/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
-                </a>
+              <nav className="flex gap-4 items-center justify-center mt-4">
+                <FaXTwitter style={{ width: "24px", height: "24px" }} />
+                <FaLinkedin style={{ width: "24px", height: "24px" }} />
               </nav>
             </div>
           </div>
