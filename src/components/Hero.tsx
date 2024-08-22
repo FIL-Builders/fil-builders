@@ -13,8 +13,8 @@ export default function Hero() {
       <section className="hero bg-primaryBlue text-white h-screen flex justify-center items-center relative p-4 overflow-hidden">
         <div className="container mx-auto flex flex-row justify-center items-center h-full w-full">
           <div className="flex-1 z-10 text-left p-4">
-            <div className="text-5xl md:text-8xl font-display font-bold mb-6 md:mb-8 max-w-full md:max-w-3xl antialiased -webkit-antialiased leading-tight md:leading-tight">
-              The catalyst <SquigglyUnderline>for builders</SquigglyUnderline> on
+            <div className="text-4xl md:text-6xl font-display font-bold mb-6 md:mb-8 max-w-full md:max-w-3xl antialiased -webkit-antialiased leading-tight md:leading-tight">
+              The catalyst <SquigglyUnderline>for builders</SquigglyUnderline>{" "} on
               Filecoin.
             </div>
             <div className="font-subtitle text-xl md:text-3xl text-secondaryYellow mb-4 md:mb-5">
