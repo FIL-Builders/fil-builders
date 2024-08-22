@@ -29,9 +29,11 @@ export default function Home() {
     <>
       <NavBar />
       <Hero />
+      {/* 
       <Learn />
       <Build />
       <Meet />
+      */}
       <Footer />
     </>
   );

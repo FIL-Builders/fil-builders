@@ -13,6 +13,12 @@ module.exports = {
         secondaryYellow: `#FFE05F`,
         white: "#FFFFFF",
       },
+      fontFamily: {
+        display: ["Balgin Black", "sans-serif"],
+        body: ["Quicksand Medium", "sans-serif"],
+        subtitle: ["Quicksand Bold", "sans-serif"],
+        paragraph: ["Quicksand Regular", "sans-serif"],
+      },
       keyframes: {
         fade: {
           "0%": { opacity: "0" },
@@ -39,8 +45,8 @@ module.exports = {
           "100%": { filter: "blur(0)" },
         },
         bounce: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-20px)' },
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-20px)" },
         },
       },
       animation: {
@@ -50,7 +56,7 @@ module.exports = {
         slideLeft: "slideLeft 1.2s forwards",
         slideRight: "slideRight 1.2s forwards",
         blur: "blur 1.2s forwards",
-        bounce: 'bounce 1s infinite',
+        bounce: "bounce 1s infinite",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -58,7 +64,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        'custom-black-box': '5px 5px 5px 5px black',
+        "custom-black-box": "5px 5px 5px 5px black",
       },
     },
   },

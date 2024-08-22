@@ -1,25 +1,49 @@
-import Head from "next/head";
-import Image from "next/image";
-import logo from "../../public/logo.white.png";
 import React from "react";
-import { FaXTwitter } from "react-icons/fa6";
-import { IoLogoYoutube } from "react-icons/io5";
 import Logo from "./svg/Logo";
+
+import { FaXTwitter } from "react-icons/fa6";
+import { FaDiscord } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { MdEmail } from  "react-icons/md";
 
 const Footer = () => {
   return (
     <div className="bg-primaryBlue flex flex-col">
-      <Head>
-        <title>FIL Builders</title>
-        <meta name="description" content="Cross the Filecoin chasm with us." />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <footer className="bg-primary text-white p-4">
-        <div className="container mx-auto flex items-center justify-between">
-          <Logo height={100} width={50} />
-          <nav className="flex gap-6 items-center">
-            <FaXTwitter style={{ width: "30px", height: "30px" }} />
-            <IoLogoYoutube style={{ width: "30px", height: "50px" }} />
+        <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between">
+          <div className="flex items-center gap-10 hidden md:flex">
+            <Logo height={100} width={50} />
+          </div>
+          <nav className="flex gap-6 items-center justify-center md:justify-start">
+            <a
+              href="mailto:contact@fil.builders"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg"
+            >
+              <MdEmail style={{ width: "30px", height: "30px" }} />
+            </a>
+            <a
+              href="https://x.com/FILBuilders"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaXTwitter style={{ width: "30px", height: "30px" }} />
+            </a>
+            <a
+              href="https://discord.gg/filecoin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaDiscord style={{ width: "30px", height: "30px" }} />
+            </a>
+            <a
+              href="https://github.com/filecoin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaGithub style={{ width: "30px", height: "30px" }} />
+            </a>
           </nav>
         </div>
       </footer>
