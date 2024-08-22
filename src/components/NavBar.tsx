@@ -10,7 +10,7 @@ const NavBar = () => {
         <meta name="description" content="Cross the Filecoin chasm with us." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="bg-primaryBlue text-white p-2 flex items-center justify-between w-full h-full">
+      <header className="bg-primaryBlue text-white p-4 flex items-center justify-between w-full h-full">
         <div className="container mx-auto flex items-center justify-between">
           <LogoLandscape
             height={100}

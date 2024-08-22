@@ -4,6 +4,7 @@ import Image from "next/image";
 import rish from "../../public/rish.png";
 import longfei from "../../public/longfei.jpeg";
 import mikers from "../../public/mikers.png";
+import xors from "../../public/xors.png";
 import truckerfling from "../../public/truckerfling.jpg";
 
 import { FaXTwitter } from "react-icons/fa6";
@@ -15,7 +16,7 @@ export default function About() {
   return (
     <>
       <section className="mission bg-primaryBlue min-h-screen text-primaryBlue p-8 font-paragraph">
-        <div className="container mx-auto mb-4 text-white">
+        <div className="container mx-auto mb-4 text-white font-body">
           <h2 className="text-4xl font-display font-bold text-center mb-4">
             Meet The Team
           </h2>
@@ -43,7 +44,36 @@ export default function About() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
           <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={rish} alt="Rishikesh Kale" width={200} height={100} />
+            <Image
+              src={truckerfling}
+              alt="Trucker Fling"
+              width={200}
+              height={200}
+            />
+            <div className="mt-4">
+              <div className="font-body text-lg">Sarah Thiam</div>
+              <div className="font-subtitle">Team Lead</div>
+              <div className="font-subtitle">@Trucker_Fling</div>
+              <nav className="flex gap-6 items-center justify-center mt-4">
+                <a
+                  href="https://x.com/Trucker_Fling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
+                </a>
+                <a
+                  href="https://linkedin.com/in/truckerfling"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
+                </a>
+              </nav>
+            </div>
+          </div>
+          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
+            <Image src={rish} alt="Rishikesh Kale" width={200} height={200} />
             <div className="mt-4">
               <div className="font-body text-lg">Rishikesh Kale</div>
               <div className="font-subtitle">Developer Advocate</div>
@@ -67,7 +97,7 @@ export default function About() {
             </div>
           </div>
           <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={longfei} alt="Longfei Wang" width={200} height={100} />
+            <Image src={longfei} alt="Longfei Wang" width={200} height={200} />
             <div className="mt-4">
               <div className="font-body text-lg">Longfei Wang</div>
               <div className="font-subtitle">Developer Advocate</div>
@@ -91,7 +121,7 @@ export default function About() {
             </div>
           </div>
           <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={mikers} alt="Mikers" width={200} height={100} />
+            <Image src={mikers} alt="Mikers" width={200} height={200} />
             <div className="mt-4">
               <div className="font-body text-lg">Mikers</div>
               <div className="font-subtitle">Developer Advocate</div>
@@ -115,40 +145,11 @@ export default function About() {
             </div>
           </div>
           <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image
-              src={truckerfling}
-              alt="Trucker Fling"
-              width={200}
-              height={100}
-            />
+            <Image src={xors} alt="XORS" width={200} height={200} />
             <div className="mt-4">
-              <div className="font-body text-lg">Trucker Fling</div>
-              <div className="font-subtitle">Developer Advocate</div>
-              <div className="font-subtitle">@Trucker_Fling</div>
-              <nav className="flex gap-6 items-center justify-center mt-4">
-                <a
-                  href="https://x.com/Trucker_Fling"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaXTwitter style={{ width: "30px", height: "30px" }} />
-                </a>
-                <a
-                  href="https://linkedin.com/in/truckerfling"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaLinkedin style={{ width: "30px", height: "30px" }} />
-                </a>
-              </nav>
-            </div>
-          </div>
-          <div className="border-primaryBlue rounded-md p-10 flex flex-col items-center justify-center relative shadow-custom-black-box bg-white mb-10">
-            <Image src={rish} alt="Rishikesh Kale" width={200} height={100} />
-            <div className="mt-4">
-              <div className="font-body text-lg">Rishikesh Kale</div>
-              <div className="font-subtitle">Developer Advocate</div>
-              <div className="font-subtitle">@Rishikesh_Kale</div>
+              <div className="font-body text-lg">XORS</div>
+              <div className="font-subtitle">DX Engineer</div>
+              <div className="font-subtitle">@XORS</div>
               <nav className="flex gap-6 items-center justify-center mt-4">
                 <a
                   href="https://x.com/truckerfling"
