@@ -100,7 +100,7 @@ export default function About() {
             <Image src={longfei} alt="Longfei Wang" width={150} height={150} />
             <div className="mt-4">
               <div className="font-body text-lg">Longfei Wang</div>
-              <div className="font-subtitle">Developer Advocate</div>
+              <div className="font-subtitle">Solutions Architect</div>
               <div className="font-subtitle">@Longfei_Wang</div>
               <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
@@ -124,7 +124,7 @@ export default function About() {
             <Image src={mikers} alt="Mikers" width={150} height={150} />
             <div className="mt-4">
               <div className="font-body text-lg">Mikers</div>
-              <div className="font-subtitle">Developer Advocate</div>
+              <div className="font-subtitle">Technical Lead</div>
               <div className="font-subtitle">@Mikers</div>
               <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
