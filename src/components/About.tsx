@@ -53,17 +53,17 @@ export default function About() {
             <div className="mt-4">
               <div className="font-body text-lg">Sarah Thiam</div>
               <div className="font-subtitle">Team Lead</div>
-              <div className="font-subtitle">@Trucker_Fling</div>
+              <div className="font-subtitle">@truckerfling</div>
               <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
-                  href="https://x.com/Trucker_Fling"
+                  href="https://x.com/truckerfling"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaXTwitter style={{ width: "24px", height: "24px" }} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/truckerfling"
+                  href="https://www.linkedin.com/in/sarahthiam/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -77,17 +77,17 @@ export default function About() {
             <div className="mt-4">
               <div className="font-body text-lg">Rishikesh Kale</div>
               <div className="font-subtitle">Developer Advocate</div>
-              <div className="font-subtitle">@Rishikesh_Kale</div>
+              <div className="font-subtitle">@0xrishikesh</div>
               <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
-                  href="https://x.com/Rishikesh_Kale"
+                  href="https://x.com/0xrishikesh"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaXTwitter style={{ width: "24px", height: "24px" }} />
                 </a>
                 <a
-                  href="https://linkedin.com/in/rishikeshkale"
+                  href="https://www.linkedin.com/in/rishikeshkale/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -101,7 +101,7 @@ export default function About() {
             <div className="mt-4">
               <div className="font-body text-lg">Longfei Wang</div>
               <div className="font-subtitle">Solutions Architect</div>
-              <div className="font-subtitle">@Longfei_Wang</div>
+              <div className="font-subtitle">@longfei_w</div>
               <nav className="flex gap-4 items-center justify-center mt-4">
                 <a
                   href="https://x.com/longfei_w"

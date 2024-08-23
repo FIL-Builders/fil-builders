@@ -38,7 +38,7 @@ const Footer = () => {
               <FaDiscord style={{ width: "30px", height: "30px" }} />
             </a>
             <a
-              href="https://github.com/filecoin"
+              href="https://github.com/filecoin-project/"
               target="_blank"
               rel="noopener noreferrer"
             >
