@@ -2,10 +2,10 @@
 
 import Image from "next/image";
 import rish from "../../public/rish.png";
-import longfei from "../../public/longfei.jpeg";
+import longfei from "../../public/longfei.png";
 import mikers from "../../public/mikers.png";
 import xors from "../../public/xors.png";
-import truckerfling from "../../public/truckerfling.jpg";
+import truckerfling from "../../public/truckerfling.png";
 
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
