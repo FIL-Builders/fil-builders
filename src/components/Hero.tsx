@@ -10,7 +10,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="hero bg-primaryBlue text-white h-screen flex justify-center items-center relative p-4 overflow-hidden">
+      <section className="hero bg-primaryBlue text-white h-screen flex justify-center items-center relative p-4">
         <div className="container mx-auto flex flex-row justify-center items-center h-full w-full">
           <div className="flex-1 z-10 text-left p-4">
             <div className="text-4xl md:text-6xl font-display font-bold mb-6 md:mb-8 max-w-full md:max-w-3xl antialiased -webkit-antialiased leading-tight md:leading-tight">
@@ -51,15 +51,15 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="flex-1 relative hidden md:flex">
-            <div className="absolute bottom-0 left-0 animate-bounce">
-              <RedPopBox height={400} width={400} />
+          <div className="md:flex-1 md:relative md:flex">
+            <div className="absolute bottom-10 left-20 md:animate-bounce">
+              <RedPopBox className="h-[100px] w-[100px] md:h-[300px] md:w-[300px]" />
             </div>
-            <div className="absolute inset-0 hidden md:flex justify-center items-center z-10 animate-bounce">
-              <Logo height={700} width={700} />
+            <div className="absolute inset-0 top-[-20px] left-[-20px] md:flex justify-center items-center md:animate-bounce md:z-10">
+              <Logo className="h-[200px] w-[200px] md:h-[600px] md:w-[600px]" />
             </div>
-            <div className="absolute top-0 right-0 animate-bounce">
-              <YellowCircle height={400} width={400} />
+            <div className="absolute top-0 right-20 md:animate-bounce">
+              <YellowCircle className="h-[100px] w-[100px] md:h-[300px] md:w-[300px]" />
             </div>
           </div>
         </div>
